@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    admin:
+      email: "admin@ophiophagus.local"
+      name: "Security Lead"
+      password: "admin123" # Modern authenticator layers handle plain strings elegantly during development runs
+cookie:
+  expiry_days: 30
+  key: "ophiophagus_secure_signature_key"
+  name: "ophiophagus_auth_cookie"

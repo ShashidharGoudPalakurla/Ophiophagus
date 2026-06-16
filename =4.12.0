@@ -1,0 +1,8 @@
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.9.3-py2-none-any.whl (115 kB)
+Collecting soupsieve<2.0,>1.2; python_version < "3.0"
+  Downloading soupsieve-1.9.6-py2.py3-none-any.whl (33 kB)
+Collecting backports.functools-lru-cache; python_version < "3"
+  Downloading backports.functools_lru_cache-1.6.6-py2.py3-none-any.whl (5.9 kB)
+Installing collected packages: backports.functools-lru-cache, soupsieve, beautifulsoup4
+Successfully installed backports.functools-lru-cache-1.6.6 beautifulsoup4-4.9.3 soupsieve-1.9.6
