@@ -16,44 +16,6 @@ Dynamic Source Code Remediation: Automatically outputs secure, production-ready 
 
 Secure Session Router Management: Features a built-in user gateway backed by encrypted cookie tracking parameters and persistent session audit history tables.
 
-🏗️ System Architecture
-The tool is split into independent presentation, orchestration, and technical auditing layers to guarantee maximum execution stability:
-
-Plaintext
-         ┌───────────────────────────────────────────┐
-         │             Operator Browser              │
-         │          (Streamlit Frontend UI)          │
-         └─────────────────────┬─────────────────────┘
-                               │ HTTPS / WebSockets
-                               ▼
-         ┌───────────────────────────────────────────┐
-         │     Streamlit Web Server & Authenticator  │
-         │         Python Backend Orchestrator       │
-         └─────────────────────┬─────────────────────┘
-                               │ Authorized Requests
-                               ▼
-         ┌───────────────────────────────────────────┐
-         │       Ophiophagus Core Expert Engine      │
-         │           (backend_engine.py)             │
-         └─────────────┬───────────────┬─────────────┘
-                       │               │
-         ┌─────────────┴┐              ┴─────────────┐
-         ▼                             ▼             ▼
-┌──────────────────────────────┐ ┌──────────────────────────────┐
-│  Network Layer Modules       │ │ Web App Layer Modules        │
-├──────────────────────────────┤ ├──────────────────────────────┤
-│ - Native Socket Scanner      │ │ - HTTP Response Auditor      │
-│ - Banner Fingerprinting      │ │ - Header & Cookie Analyzer   │
-│ - TLS & Crypto Handshake     │ │ - HTML BeautifulSoup Parser  │
-└──────────────────────────────┘ └──────────────────────────────┘
-📦 Project Directory Structure
-Plaintext
-ophiophagus_project/
-│
-├── app.py                 # Primary Application Gateway (Authentication, Routing, Layout)
-├── backend_engine.py      # Core Expert Engine (Socket Probes, TLS Wrap, App Auditor)
-├── config.yaml            # Environment Access Credentials & Security Parameters
-└── requirements.txt       # Unified System Dependencies
 🛠️ Installation & Setup
 📋 Prerequisites
 The lower-level network mapping tools require native cryptographic components and development headers on the host machine.
